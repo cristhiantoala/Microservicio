@@ -272,7 +272,7 @@ def estadoEmocion(e):
             
 
 def prediccion(p):
-    new_model = keras.models.load_model('C:/Users/crism/OneDrive/Desktop/Tesis Final/flask/modelo_entrenado.h5')
+    new_model = keras.models.load_model('../modelo_entrenado.h5')
     auxi=np.array([float(p[0]),float(p[1]),float(p[2]),float(p[3]),float(p[4]),float(p[5]),float(p[6]),float(p[7]),float(p[8])])
     predic=auxi.reshape(1,-1)
     prediction = new_model.predict(predic)
@@ -280,7 +280,7 @@ def prediccion(p):
     return out
 
 def prediccion2(p):
-    knn_from_joblib = joblib.load('C:/Users/crism/OneDrive/Desktop/Tesis Final/flask/modelo_knn_entrenado.pkl')
+    knn_from_joblib = joblib.load('../modelo_knn_entrenado.pkl')
     auxi=np.array([float(p[0]),float(p[1]),float(p[2]),float(p[3]),float(p[4]),float(p[5]),float(p[6]),float(p[7]),float(p[8])])
     predic=auxi.reshape(1,-1)
     prediction = knn_from_joblib.predict(predic)
