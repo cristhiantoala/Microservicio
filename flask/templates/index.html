@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>QT-calculator</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='quizzer.css') }}">
+  <script src="{{ url_for('static', filename='underscore-1.8.3.min.js') }}"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='quizzer.js') }}"></script>
+  <script src="{{ url_for('static', filename='dataServer.js') }}"></script>
+  <script src="{{ url_for('static', filename='mouse.js') }}"></script>
+  <script src="{{ url_for('static', filename='teclado.js') }}"></script>
+  </head>
+  <body>
+    <form id="ingresar" method="post" name="ingresar" action="servidor\insertar.php">
+      <input name= "coordenadas" id="coordenadas" type="hidden"/>
+      <input name= "tecla" id="tecla" type="hidden"/>
+      <input name= "respuestas" id="respuestas" type="hidden"/>
+    
+      <!--<input name= "tecla" id="tecla" type="hidden"/>-->
+      
+    <header>
+      <div class="title">
+        <h1>Test</h1>
+        <h2>¿Sabes de informática?</h2>
+      </div>
+      <!--<div class="countdown"><span class="time_left">12s</span></div>-->
+      <!-- <div class="points"><span class="points">0 points</span></div> -->
+    </header>
+    <div class="start">
+      <div class="card">
+        <p>¿Listo para comenzar?</p>
+        <button  type="button" class="start">Comenzar</button>
+      </div>
+    </div>
+    <div class="play">
+      <div class="questions"></div>
+    </div>
+    <div class="finish card">
+      <p class="times_up">¡Se acabó el tiempo!</p>
+      <p>Has obtenido</p>
+      <!-- <p class="final_points">8 puntos</p> -->
+      <p class="acertadas">8 puntos</p>
+      <p class="incorrectas">8 puntos</p>
+      <div class="play_again">
+      <button type="submit" form="ingresar"> Finalizar </button>
+    </form>
+      </div>
+    </div>
+
+
+      <script>
+        var movMouse = new Array()
+        var pressTecla = new Array()
+        var horaCiclo = new Array()
+        var click = new Array()
+        var miArray2 = new Array()
+        var miArray21 = new Array()
+        var miArray3 = new Array()
+        var miArray4 = new Array()
+        var miArray5 = new Array()
+        var almacenar_respuestas = new Array()
+
+        
+        var tclborrado = new Array();
+        var tclespacio = new Array();
+        
+
+
+        
+        window.onload = function() {
+        document.documentElement.onmousedown = clicks;
+        document.documentElement.onkeydown = teclas;
+        document.documentElement.onmousemove = puntero;
+        }
+      
+</script>
+  </body>
+</html>
