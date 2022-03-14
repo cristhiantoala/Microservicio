@@ -4,9 +4,11 @@ import re
 import math
 import datetime
 import pymysql
+from flask_cors import CORS
 from FuncionesPython import procesarDatos, prediccion, prediccion2, estadoEmocion, estadoEmocion2
 #######################################################################
 app = Flask(__name__)
+CORS(app)
 @app.route('/')
 def index():
   return render_template('index.html')

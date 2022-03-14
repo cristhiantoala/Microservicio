@@ -269,10 +269,8 @@ def estadoEmocion(e):
     if e[0][2]==1:
         resultado="Positivo"
     return resultado
-            
-
+new_model = keras.models.load_model('/root/Microservicio/flask/modelo_entrenado.h5')
 def prediccion(p):
-    new_model = keras.models.load_model('/root/Microservicio/flask/modelo_entrenado.h5')
     auxi=np.array([float(p[0]),float(p[1]),float(p[2]),float(p[3]),float(p[4]),float(p[5]),float(p[6]),float(p[7]),float(p[8])])
     predic=auxi.reshape(1,-1)
     prediction = new_model.predict(predic)
