@@ -260,37 +260,20 @@ def procesarDatos(d):
     return vel[0], angs[0],logCountM[0], distDif[0], clickD[0], clickTotalM[0], backSpaceM[0], leftSideM[0], rigthSideM[0]
 ################################model###########################
 
+new_model = keras.models.load_model('/root/Microservicio/flask/modelo_entrenado.h5') #Carga el modelo
+
+def prediccion(p): #Realiza la predicción
+    auxi=np.array([float(p[0]),float(p[1]),float(p[2]),float(p[3]),float(p[4]),float(p[5]),float(p[6]),float(p[7]),float(p[8])]) #Transforma los datos a float y los almacena en un numpy array
+    predic=auxi.reshape(1,-1) #Se reescribe la forma de los datos
+    prediction = new_model.predict(predic) #Realiza la predicción y se almacena en la variable
+    out =prediction.round().astype(int) #Se redondean los valores de la predicción y se convierten a enteros
+    return out #Retorna la matriz de predicción
 
 def estadoEmocion(e):
-    if e[0][0]==1:
+    if e[0][0]==1: #Si la matriz tiene el numero 1 en la primera posición se le asigna al resultado negativo
         resultado="Negativo"
     if e[0][1]==1:
-        resultado="Neutro"
+        resultado="Neutro" #Si la matriz tiene el numero 1 en la segunda posición se le asigna al resultado neutro
     if e[0][2]==1:
-        resultado="Positivo"
-    return resultado
-new_model = keras.models.load_model('/root/Microservicio/flask/modelo_entrenado.h5')
-def prediccion(p):
-    auxi=np.array([float(p[0]),float(p[1]),float(p[2]),float(p[3]),float(p[4]),float(p[5]),float(p[6]),float(p[7]),float(p[8])])
-    predic=auxi.reshape(1,-1)
-    prediction = new_model.predict(predic)
-    out =prediction.round().astype(int)
-    return out
-
-def prediccion2(p):
-    knn_from_joblib = joblib.load('/root/Microservicio/flask/modelo_knn_entrenado.pkl')
-    auxi=np.array([float(p[0]),float(p[1]),float(p[2]),float(p[3]),float(p[4]),float(p[5]),float(p[6]),float(p[7]),float(p[8])])
-    predic=auxi.reshape(1,-1)
-    prediction = knn_from_joblib.predict(predic)
-    out =prediction.round().astype(int)
-    return out
-
-
-def estadoEmocion2(e):
-    if e==1:
-        resultado="Negativo"
-    if e==2:
-        resultado="Neutro"
-    if e==3:
-        resultado="Positivo"
+        resultado="Positivo" #Si la matriz tiene el numero 1 en la ultima posición se le asigna al resultado positivo
     return resultado
