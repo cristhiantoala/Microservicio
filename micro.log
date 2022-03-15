@@ -1,0 +1,338 @@
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+(114.12132286011229, 611.543967165767, 70, 4.102380881423196, -161.0, 4, 0, 2, 0)
+[[0 1 0]]
+Neutro
+(114.12132286011229, 611.543967165767, 70, 4.102380881423196, -161.0, 4, 0, 2, 0)
+[[0 1 0]]
+Neutro
+(1860.6003562021451, 6369.079065511068, 163, 0.0, 0, 0, 0, 0, 0)
+[[1 0 0]]
+Negativo
+(1860.6003562021451, 6369.079065511068, 163, 0.0, 0, 0, 0, 0, 0)
+[[1 0 0]]
+Negativo
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(1211.9925288620602, 3040.273941057192, 145, 0.0, 0, 0, 0, 0, 0)
+[[1 0 0]]
+Negativo
+(1168.8247595844387, 4211.690272613152, 271, 0.0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(2509.4779408925606, 6579.848899598432, 405, 0.0, 0, 0, 0, 0, 0)
+[[1 0 0]]
+Negativo
+(6992.952409350492, 77408.8806396091, 470, 0.0, 0, 0, 0, 0, 0)
+[[0 0 1]]
+Positivo
+(7780.8076273171855, 81854.9423287294, 666, 0.0, 0, 0, 0, 0, 0)
+[[0 0 1]]
+Positivo
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(1260.5037156756605, 11854.510609069634, 120, 0.0, 0, 0, 0, 0, 0)
+[[0 0 1]]
+Positivo
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(789.2802447228502, 2861.900270631762, 77, 0.0, 0, 0, 0, 0, 0)
+[[1 0 0]]
+Negativo
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(142.69157682842504, 1979.6195613245739, 52, 0.0, 0, 0, 0, 0, 0)
+[[0 0 1]]
+Positivo
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(1350.2810046522459, 2179.2627258768107, 128, 805.2050899870345, 3545.0, 2, 0, 3, 0)
+[[0 1 0]]
+Neutro
+(1422.8330100703608, 2681.8295469284194, 156, 811.293470098016, 13032.0, 4, 0, 10, 0)
+[[0 1 0]]
+Neutro
+(2162.5976643752742, 7253.199876829008, 515, 0.0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(5184.870035902906, 21119.234876261635, 890, 1488.6279577256882, 2094.0, 7, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(19862.532451611307, 104149.26837917698, 768, 1611.6174008952605, 3177.0, 12, 0, 11, 0)
+[[0 1 0]]
+Neutro
+(35498.50009081037, 194877.41229479076, 1476, 33051.8937983435, 16024.0, 14, 0, 11, 0)
+[[0 1 0]]
+Neutro
+(614.5746759472001, 24723.279614789524, 278, 159.51542629877304, 5488.0, 11, 0, 7, 0)
+[[0 1 0]]
+Neutro
+(2258.133927230601, 36816.08128433355, 542, 210.25010310885546, 16320.0, 27, 0, 51, 1)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(306.27453755225554, 323.5227678478635, 10, 0.0, 0, 0, 0, 0, 0)
+[[0 0 1]]
+Positivo
+(1691.3841231925367, 4546.422446251647, 202, 1026.2847412128579, 5031.0, 8, 0, 5, 0)
+[[0 0 1]]
+Positivo
+(3663.1021113398206, 14879.479879505787, 592, 1257.0634594463313, 15999.0, 24, 0, 5, 0)
+[[0 0 1]]
+Positivo
+(588.5383935300636, 4085.596773937284, 155, 10.605089709767412, 5032.0, 8, 0, 3, 0)
+[[0 1 0]]
+Neutro
+(2355.1734436142174, 10519.207246537713, 443, 851.8138361979563, 12696.0, 17, 0, 3, 0)
+[[0 0 1]]
+Positivo
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(1099.2404432381104, 5341.525599719659, 152, 243.82634444409382, 2575.0, 11, 0, 0, 0)
+[[0 0 1]]
+Positivo
+(619.1138808629651, 2972.7182059212982, 118, 158.31646935802024, 3712.0, 3, 0, 0, 0)
+[[0 0 1]]
+Positivo
+(1914.87627166516, 3301.9816679991927, 173, 923.5465428828702, 9327.0, 4, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(496.7908492496657, 737.8020398576737, 17, 0.0, 0, 0, 0, 0, 0)
+[[1 0 0]]
+Negativo
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+(0, 0, 0, 0, 0, 0, 0, 0, 0)
+[[0 1 0]]
+Neutro
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
