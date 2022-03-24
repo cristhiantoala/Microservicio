@@ -17,7 +17,7 @@ function obtenerData(){
     {"Teclas": pressTecla},
     {"Hora": horaCiclo}
   ];
-$.ajax({
+  $.ajax({
     type: "POST",
     url: "/datos",
     data: JSON.stringify(server_data),
@@ -26,6 +26,8 @@ $.ajax({
     success: function(result) {
       console.log("Result:");
       console.log(result);
+      animo=JSON.stringify(result.Emocion)
+      cambiarEmocion(animo)
     } 
 });
 }

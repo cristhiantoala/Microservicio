@@ -833,7 +833,7 @@ $(function() {
 					o=document.getElementById("hover1");
 					o.style.left=2+"px";
 					o.style.top=-10+"px";
-					$("#q12o2").attr("disabled","disabled")
+					$("#q8o2").attr("disabled","disabled")
 					$("#Q1").attr("title","Debe ingresar al menos 50 caracteres")
 				}
 			}
@@ -849,7 +849,7 @@ $(function() {
 					o=document.getElementById("hover2");
 					o.style.left=2+"px";
 					o.style.top=-10+"px";
-					$("#q13o2").attr("disabled","disabled")
+					$("#q9o2").attr("disabled","disabled")
 					$("#Q2").attr("title","Debe ingresar al menos 50 caracteres")
 				}
 			}
@@ -864,30 +864,30 @@ $(function() {
 					o=document.getElementById("hover3");
 					o.style.left=2+"px";
 					o.style.top=-10+"px";
-					$("#q14o2").attr("disabled","disabled")
+					$("#q10o2").attr("disabled","disabled")
 					$("#Q3").attr("title","Debe ingresar al menos 50 caracteres")
 				}
 			}
 		}
 		function hoveroff(){
 			var CQ = currentQuestion-1;
-			if (CQ==12)
+			if (CQ==8)
 			{
 				document.getElementById("hover1").innerHTML="";
 				o=document.getElementById("hover1");
-				$("#q12o2").removeAttr("disabled")
+				$("#q8o2").removeAttr("disabled")
 			}
-				if (CQ==13)
+				if (CQ==9)
 			{
 				document.getElementById("hover2").innerHTML="";
 				o=document.getElementById("hover2");
-				$("#q13o2").removeAttr("disabled")
+				$("#q9o2").removeAttr("disabled")
 			}
-				if (CQ==14)
+				if (CQ==10)
 			{
 				document.getElementById("hover3").innerHTML="";
 				o=document.getElementById("hover3");
-				$("#q14o2").removeAttr("disabled")
+				$("#q10o2").removeAttr("disabled")
 			}
 		}
 	// Animación de respuesta correcta e incorrecta.

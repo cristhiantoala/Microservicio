@@ -8,6 +8,7 @@
   <script src="{{ url_for('static', filename='underscore-1.8.3.min.js') }}"></script> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="{{ url_for('static', filename='quizzer.js') }}"></script>
+  <script src="{{ url_for('static', filename='mostrarEmocion.js') }}"></script>
   <script src="{{ url_for('static', filename='dataServer.js') }}"></script>
   <script src="{{ url_for('static', filename='mouse.js') }}"></script>
   <script src="{{ url_for('static', filename='teclado.js') }}"></script>
@@ -26,7 +27,7 @@
         <h2>¿Sabes de informática?</h2>
       </div>
       <!--<div class="countdown"><span class="time_left">12s</span></div>-->
-      <!-- <div class="points"><span class="points">0 points</span></div> -->
+      <div class="points" id="emocion"><span class="points"></span></div>
     </header>
     <div class="start">
       <div class="card">
