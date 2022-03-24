@@ -673,7 +673,6 @@ $(function() {
 
 		generateCards();
 		//updateTime();
-		updatePoints();
 	}
 
 	//  La función start se ejecuta cuando el jugador hace click en comenzar.
