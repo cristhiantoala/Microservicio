@@ -15,6 +15,6 @@ function cambiarEmocion(emocionA) {
   }
   var hoy = new Date();
   var hora = hoy.getHours() + ':' + hoy.getMinutes()+ ':' + hoy.getSeconds();
-  horaEmocion="Emocion: "+emocionA+"<br>"+"Hora: "+hora
+  horaEmocion="Emoción: "+emocionA+"<br>"+"Hora: "+hora
   document.getElementById("emocion").innerHTML=horaEmocion
 }

@@ -659,6 +659,7 @@ $(function() {
 
 	// Uso de jQuery para escuchar el evento click del botón de Comenzar y Volver a jugar.
 	$('button.start').click(start);
+	$('.play_again button').click(restart);
 
 	// La función restart inicializa los valores de las variables de estado del juego.
 	function restart() {

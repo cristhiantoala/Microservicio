@@ -14,13 +14,7 @@
   <script src="{{ url_for('static', filename='teclado.js') }}"></script>
   </head>
   <body>
-    <form id="ingresar" method="post" name="ingresar" action="servidor\insertar.php">
-      <input name= "coordenadas" id="coordenadas" type="hidden"/>
-      <input name= "tecla" id="tecla" type="hidden"/>
-      <input name= "respuestas" id="respuestas" type="hidden"/>
     
-      <!--<input name= "tecla" id="tecla" type="hidden"/>-->
-      
     <header>
       <div class="title">
         <h1>Test</h1>
@@ -45,8 +39,8 @@
       <p class="acertadas">8 puntos</p>
       <p class="incorrectas">8 puntos</p>
       <div class="play_again">
-      <button type="submit" form="ingresar"> Finalizar </button>
-    </form>
+        <button>Volver a jugar</button>
+      </div>
       </div>
     </div>
 
